@@ -435,3 +435,14 @@ footer p {
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	margin-top: 50px;
 }
+@media (max-width: 500px) {
+	nav .media, .bc, .hr, .cf, header h4, .quotes, .manifesto, .offerings, .customers img {
+		display:none;
+	}
+}
+@media (max-width: 500px) {
+	header, .customers, .manifesto, .rework, .offerings, footer, .globe {
+		width:30%;
+		font-size: 15px;
+	}
+}
